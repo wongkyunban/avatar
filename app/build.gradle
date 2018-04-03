@@ -19,6 +19,9 @@ android {
     dataBinding {
         enabled = true
     }
+    lintOptions {
+        disable 'RestrictedApi'
+    }
 }
 
 dependencies {
